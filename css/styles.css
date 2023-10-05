@@ -24,7 +24,10 @@ body {
     padding: 0rem;
     box-sizing: inherit;
 }
-
+.wrapper{
+    width: 95%;
+  margin-left: 2.5%;
+}
 .section {
     margin-top: 25px;
     margin-bottom: 25px;
@@ -94,26 +97,36 @@ nav {
 
 /* REDES */
 .redes {
-    height: 16rem;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    align-content: center;
-    list-style: none;
-    padding: 0px;
+    height: 149px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  list-style: none;
+  margin-top: 115px;
 }
 
 .routes {
-    border-radius: 50%;
+    /* border-radius: 50%; */
     /* background-color: #FFFF; */
-    padding: 1rem;
+    /* padding: 1rem; */
 }
 
 .links {
-    max-width: 3rem;
+    width: 57px;
+  background-color: transparent;
+  padding: 2px;
+  border: 1px solid rgb(255, 255, 255);
+  border-radius: 50%;
 }
 
 /* MEDIA QUERIES  */
+@media (max-width: 440px) {
+.redes{
+    height: 113px;
+    margin-top: 64px;
+}
+    
+}
 /* @media (min-width: 180px) and (max-width: 368px) {
     body {
         width: 250px;
