@@ -8,7 +8,10 @@
 html {
     box-sizing: border-box;
 }
+ol,ul{
+    padding-left: 0rem !important;
 
+}
 body {
     background-color: var(--ColorFondo) !important;
     width: 100%;
@@ -113,10 +116,11 @@ nav {
 
 .links {
     width: 57px;
-  background-color: transparent;
-  padding: 2px;
-  border: 1px solid rgb(255, 255, 255);
-  border-radius: 50%;
+    transition: transform 0.4s;
+  
+}
+.links:hover{
+    transform: scale(2);
 }
 
 /* MEDIA QUERIES  */
